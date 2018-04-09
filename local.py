@@ -11,7 +11,7 @@ while(True):
     ret, frame = cap.read()
     cv2.imshow('video',frame)
     frames.append(frame)
-    sys.stdout.write( frm.tostring() )
+    sys.stdout.write( frame.tostring() )
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 

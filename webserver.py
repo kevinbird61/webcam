@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, Response, make_response
 from camera import VideoCamera
 
 app = Flask(__name__)
-
+DEVICE_ID=1
 flag = True
 
 # for loading landing page
